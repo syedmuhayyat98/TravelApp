@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: '/TravelApp',
-  assetPrefix: '/TravelApp/',
+    assetPrefix: "/TravelApp/",
+    basePath: "/TravelApp",
+    output: "export",
 };
 
 export default nextConfig;
